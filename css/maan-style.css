@@ -1,0 +1,818 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ul,li,p,div,nav,strong,td,th,tr,{
+	margin:0;
+	padding:0;
+	list-style:none;}  
+
+*{ margin:0px;
+padding:0px;
+	}
+
+
+@font-face {
+    font-family: 'Lucida Grande';
+    src: url('6216-webfont.eot');
+    src: url('6216-webfont.eot?#iefix') format('embedded-opentype'),
+         url('6216-webfont.woff') format('woff'),
+         url('6216-webfont.ttf') format('truetype'),
+         url('6216-webfont.svg#lucida_granderegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	margin:0px;
+	padding:0px;
+	background: url(../maan_images/bg02.jpg) repeat-x;
+	font-family:"Lucida Grande",arial;
+	font-size:11px;
+	color:rgb(6, 9, 241);
+	font-weight:normal;
+	text-decoration:none;
+}
+img {
+	border:none;
+}
+p {
+	margin:0px;
+}
+.text {
+	font-family:"Lucida Grande",arial;
+	font-size:12px;
+	color:#333;
+	font-weight:normal;
+	text-decoration:none;
+	}
+.heading-text {
+	font-family:"Lucida Grande",arial;
+	font-weight:bold;
+	font-size:16px;
+	color:#2e8016;
+	}
+.top-space {
+	margin-top:10px;
+	}
+.topspace20px{
+	margin-top: 20px;
+}	
+.clear {
+	clear:both;
+}
+.float_left {
+	float:left;
+}
+.float_right {
+	float:right;
+}
+.margin_right_5 {
+	margin-right:5px;
+}
+
+.home{
+	height:36px;
+	margin:0px;
+	padding:0px;}	
+	
+.left {
+	float:left
+}
+.right {
+	float:right
+}
+.clear {
+	clear:both
+}
+#wrapper {
+	width:990px;
+	height:auto;
+	margin:0 auto;
+	
+	}
+	
+
+	
+.pro{
+	margin:0 auto;}	
+.logo{
+	float:left;
+	}
+.headerRightSide{
+	float:right;
+	}
+.headerRightSide a{
+	
+	background:#f6881f;
+	border-radius:5px;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	font-size : 14px;
+	color: rgb(255, 0, 0);
+	text-decoration: none;
+	padding:5px 10px;
+	display:block;
+}
+.headerRightSide{
+	font-size : 14px;
+	color: #333333;
+	text-decoration: none;
+}
+#header{
+	background: url(../maan_images/design_bg.png) no-repeat;
+	overflow:hidden;
+	width:990px;
+	margin:0 auto;
+	}
+
+
+/*	-----------------------------------NAVIGATION STARTS-----------------------------------*/	
+	
+.menu{
+	
+	-webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+     border-radius: 6px;
+}
+	 
+	
+#nav {
+	margin:0 auto;
+	padding:0;
+	background: url(../maan_images/nav_bg.png) repeat-x 0 0; 
+	background-color:#00acfc;
+	overflow:hidden;
+	-webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+     border-radius: 6px;
+	 width:990px;
+}
+
+
+#nav li { display:block; float:left; border-right:1px solid #252418; border-left:1px solid #252418; border-bottom:1px solid #575757; border-top:1px solid #797979;
+	height:32px; 
+}
+.homeIcon{
+	background:url(../maan_images/Home.icn.png) 10px 6px no-repeat; padding: 0px 14px 0px 32px !important;  line-height:32px;display:block; 
+	}
+
+/* Set the states when hovering, except for the last item in the list (the search bar), since it doesn't need to change */
+#nav li a:hover, #nav li.active {
+   
+    background-color:#383838; /* Fallback */
+    
+    /* We use the inset of the box shadow to create a subtle inner glow when hovering */
+   -moz-box-shadow: inset 1px 13px 24px 3px #262626;
+   -webkit-box-shadow: inset 1px 3px 24px 3px #262626;
+   box-shadow: inset 1px 3px 24px 3px #262626;
+}
+
+/* When the user clicks the button, we simply change the box inset (compared to the "hover") */
+#nav li:active {
+   
+    background-color:#383838; /* Fallback */
+    
+    -moz-box-shadow: inset 1px 1px 30px 7px #000;
+-webkit-box-shadow: inset 1px 1px 30px 7px #000;
+box-shadow: inset 1px 1px 30px 7px #000;
+}
+
+#nav li a { color:white; text-decoration:none; text-align:center; display:block; outline:none; padding:0px 31px 0px 30px; line-height:32px; overflow:hidden; font-size:12px; font-family:Arial, Helvetica, sans-serif; outline:none;	}
+
+#nav li:first-child {-webkit-border-radius:6px 0 0 6px;-moz-border-radius:6px 0 0 6px;border-radius:6px 0 0 6px; behavior:url(border-radius.htc); }
+#nav li.last {border:none;  behavior:url(border-radius.htc);)
+ 
+}
+
+
+/*	-----------------------------------NAVIGATION ENDS-----------------------------------*/
+ 
+h2{
+	font:20px "Lucida Grande";
+	/*margin:14px 0;*/
+	margin-bottom:15px;
+	}
+ 
+ 
+h3{
+	background: url(../maan_images/dot-3.png) no-repeat;
+	padding:1px 0 0 20px;
+	font-size:16px;
+    color:#d86d0d;
+	margin:15px 0 15px 0;
+	}
+	
+ 
+.new_heading{
+	font-size:16px;
+    color:#d86d0d;
+	margin:15px 0 15px 0;
+	}	
+	
+.mar_small{
+	margin:0 0 10px 0;
+	}	
+ 
+.top_main{
+	width:990px;
+	height:301px;
+    margin:25px 0px;
+	}
+.header_img{
+	background:#f7f3db;
+    width:985px;
+	margin:20px 0 0 0;
+	height:220px;
+	border:2px solid #d86d0d;
+	}	
+	
+.slider_img{
+	width:675px;
+	height:300px;
+	background: url(../maan_images/slid_img01.jpeg) no-repeat;
+	border:1px #999 solid;
+	float:left;
+	}	
+	
+
+.Achiev_tab{
+	width:301px;
+	height:185px;
+	border:1px solid #d1d1d1;
+	float:right;
+}
+
+.view_text{
+	float:right;
+	margin:-5px 20px 0 0px;
+	color:#F00;
+	}
+
+
+	
+	
+.head_bg h3{
+	background:#444444;
+	text-align:center;
+	font:14px "Lucida Grande";
+	color:#FFFFFF;
+	font-weight:bold; 
+	padding:8px 0;
+	margin:0 0 0 0;}
+	
+.achive_text{
+	margin-left:20px;
+	width:250px;
+	height:80px;
+	background:#063;
+	padding:10px;}
+	
+.achive_text_li{
+	font:12px "Lucida Grande";
+	color:#000;
+
+	}	
+
+.bt_line{
+	width:250px;
+	margin:0 auto;
+	height:auto;
+	border-bottom:2px #FC3 solid;
+	}
+	
+.bt_line2{
+	width:250px;
+	margin:0 auto;
+	height:auto;
+	}	
+	
+.info_tab {
+  width:277px;
+  height: 86px;
+  border: 1px solid #d1d1d1;
+  margin-top:190px;
+  padding: 12px 12px;
+}  
+
+.info_tab P{
+	font:12px /12px "Lucida Grande";
+	color:#545353;
+	text-align:justify;
+	line-height: 18px;
+	}	
+.inner_main_text{
+	width:660px;
+	height:auto;
+	margin:20px 0 0 0;}	
+	
+.main_cont{
+	margin:10px auto;}
+	
+.main_infor{
+	width:660px;
+	background:#ffffff;
+	margin-top:0px;
+	}
+	
+.main_infor_about_maan{
+	width:990px;
+	height:auto;
+	background:#ffffff;
+	margin-top:15px;
+	} 	
+	
+p.main_text,div.pay_text{
+	font: 12px/20px "Lucida Grande";
+	color:#181616;
+	text-align:justify;
+	line-height: 18px;
+ }
+ 
+
+
+.span{
+	font:40px;
+	font-weight:bold;}
+
+.img_tab{
+	width: 301px;
+	border:1px solid #d1d1d1;
+	margin-top:65px;
+	overflow:hidden;
+	
+}
+
+.margin-20{
+	margin-top:20px;}
+/*-----------------------------index_page-----------------------*/
+
+.img_tab_index {
+	width: 301px;
+	border:1px solid #d1d1d1;
+	overflow:hidden;
+	margin-top:45px;
+}
+
+.head_bg_index h3{
+	background:#444444;
+	text-align:center;
+	font:14px "Lucida Grande";
+	color:#FFFFFF;
+	font-weight:bold; 
+	padding:5px 0;
+	margin:0 0 0 0;}
+
+
+/*-----------------------------index_page-----------------------*/
+
+	
+.img pad {
+	widows:200px;
+	height:50px;
+	border:2px #000 solid;
+	padding:16px 16px;
+}
+
+ 
+/*img{
+	border: 2px solid #bdbdbd;
+	margin: 6px 4px 8px 5px;}*/
+
+
+/*---------------------------footer---------------------------*/
+	
+#footer {
+	
+    margin:20px 0 0 0;
+	clear: both;
+	font-size:10px;
+	overflow: hidden;
+	background: #a4a16b;
+	width: auto;
+	color: #333;
+	padding:10px 10px ;
+	ont-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Verdana, Sans-Serif;
+     }
+
+	
+ .footer-left {
+	float:left;
+	padding: 0 0 5px 0;
+	width:300px;
+	text-align:left;	}
+	
+.footer-right {
+	float:right;
+	font:9px "Lucida Grande";
+	
+	margin: 15px 0 5px 0;
+	padding:0;
+	width: 600px;
+	text-align:right;
+	}
+.footer-right a {
+	padding-right:5px;
+	color:#333;
+	text-decoration:none;
+	}	
+.footer-right a:hover {
+   color: rgb(184, 131, 131);
+	}	
+.contact{
+	font:12px "Lucida Grande";
+	color:#666;
+	}	
+	
+<!---------------------------------------------Gallery---------------------------->
+
+
+
+.gallerycontainer{
+position: relative;
+
+/*Add a height attribute and set to largest image's height to prevent overlaying*/
+}
+
+
+.thumbnail img{
+border: 1px solid #666;
+margin: 0px 10px 20px 3px;
+padding:2px ;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+}
+
+.thumbnail:hover img{
+border: 1px solid #d86d0d ;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: lightyellow;
+padding: 5px;
+left: -1000px;
+border: 1px dashed gray;
+visibility: hidden;
+color: black;
+text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image*/
+visibility: visible;
+top: 0;
+left: 230px; /*position where enlarged image should offset horizontally */
+z-index: 50;
+}
+
+<!-----------------------------------------pagination csss--------------------------------->
+
+ul{border:0; margin:0; padding:0;}
+
+#pagination{ width:260px; height:auto; float:right; }
+
+#pagination-flickr li{
+border:0; margin:0; padding:0;
+font-size:11px;
+list-style:none;
+}
+
+#pagination-flickr a{margin-right:2px;}
+
+#pagination-flickr .previous-off,
+#pagination-flickr .next-off {
+color:#DFC471;
+display:block;
+float:left;
+font-weight:bold;
+padding:3px 4px;
+}
+#pagination-flickr .next a,
+#pagination-flickr .previous a {
+font-weight:bold;
+
+} 
+#pagination-flickr .active{
+color:#d86d0d;
+font-weight:bold;
+display:block;
+float:left;
+padding:4px 6px;
+}
+#pagination-flickr a:link,
+#pagination-flickr a:visited {
+color: #666;
+display:block;
+float:left;
+padding:3px 6px;
+text-decoration:none;
+}
+#pagination-flickr a:hover{
+border:solid 0px #d86d0d;
+}
+
+<!-----------------------------------------panchayt.css------------------------->
+div.img
+  {
+  margin:2px;
+  border:1px solid #0000ff;
+  height:auto;
+  width:auto;
+  float:left;
+  text-align:center;
+  }
+div.img img
+  {
+  display:inline;
+  margin:3px;
+  border:1px solid #ffffff;
+  }
+div.img a:hover img
+  {
+  border:1px solid #0000ff;
+  }
+div.desc
+  {
+  text-align:center;
+  font-weight:normal;
+  width:130px;
+  margin:2px;
+  }
+  
+  
+ .gallerycontainer td {
+		vertical-align:top; 
+		text-align:center;
+		border:1px solid #666;
+		font:11px "Lucida Grande";
+	
+}
+
+.panchayt_info{
+	width:700px;
+	height:auto;
+	margin:-8px 0 0 0;
+	}
+
+.gallerycontainer {
+	width: 854px;
+	margin: 0 auto;
+}
+.gallery-page .gallerycontainer {width: 860px;margin: 0 auto;}
+#nav li:first-child a {
+	padding:10px 20px 9px
+}
+
+.footer-link-text{
+    font-weight:normal;
+	text-decoration:none;
+	
+}
+.footer-link-text:hover{
+	font-weight:normal;
+	text-decoration:underline;
+	color:#FFFFFF;
+}	
+ul.achieve-box{
+	margin:0;
+	padding:0;
+}
+ul.achieve-box li{
+	margin:15px 25px 0 0;
+	height:50px;
+	font-size:12px;
+	line-height:18px;
+	text-align: justify;
+	list-style:none;
+	background:url(../maan_images/circle.png) no-repeat 10px 6px;
+	padding-left:25px;
+	vertical-align:top;
+	margin-left: 15px;
+	
+}
+
+ul.achieve-box li.unerline{	
+	border-bottom: #FC0 2px solid;
+}
+
+
+/*----------------------form-css-------------------------*/
+
+.contactFormBg {
+	/*background: #F9FAD6;
+	overflow: hidden;border: 1px solid #b3b51f;*/
+	padding: 20px 35px;
+	margin: 20px 30px; 
+}
+ 	
+.contactFormBg .label {
+	width:220px;
+	/*float:left;*/
+	font-size:14px;
+	padding: 10px 0;
+	margin-top: 5px;
+}	
+.field {
+	float:left;
+	display:block;
+	padding: 10px 0;
+	overflow:hidden;
+}
+
+.input_inner{
+	padding: 0 5px;
+    width: 260px;
+	height: 25px;}
+
+.buttonWrapper {
+	width:200px;
+	margin:0 auto;
+	text-align:center;
+}
+.blueBtn, .blackBtn {
+	background-clip: padding-box;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.2) inset;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-weight:bold;
+	font-size:12px;
+	text-decoration:none;
+	margin: 0 10px 0 0;
+	padding: 5px 10px 6px;
+	text-align: center;
+	text-shadow: 0 0 0 transparent, 1px 1px 0 rgba(0, 0, 0, 0.1);
+	transition: border-color 0s ease 0s, all 0.3s ease 0s;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.blueBtn {
+	background: #63701E;
+	border: 1px solid #86AC0D;
+}
+.blackBtn {
+	background:#444;
+	border:1px solid #333;
+}
+.blueBtn:hover {
+	background:#394209;
+}
+.blackBtn:hover {
+	background:#525252;
+}
+input[type="text"], textarea {
+	width:180px;
+	padding:0px 5px;
+	margin-right:5px;
+}
+.smallinput {
+	width:70px !important;
+	padding:3px 5px;
+	margin-right:5px;
+}
+.smallselect {
+	width:100px !important;
+	padding:3px 3px;
+	margin-right:5px;
+}
+select {
+	width:194px;
+	padding:3px 5px;
+	margin-right:5px;
+}
+.successMsg {
+	background:#edfced;
+	padding:10px;
+	border:1px solid #65982e;
+	color:#4e8a43;
+}
+.errorMsg {
+	background:#fdd5ce;
+	padding:10px;
+	border:1px solid #d8000c;
+	color:#db001a;
+}
+.middleContentWrapper {
+	width:646px;
+	margin:0 auto;
+}
+
+.awardsContentColumn {
+	float:left;
+	margin:0 60px 30px 0;
+	width:293px;
+}
+.searchForm {
+	background:#f3f6ff;
+	overflow:hidden;
+	padding:10px 30px;
+	margin:10px 0px;
+	border:1px solid #dae0f3;
+}
+.searchColumn {
+	float:left;
+	width:280px;
+	margin-right:20px;
+}
+.searchColumn label {
+	float:left;
+	width:80px;
+	font-size:11px;
+	font-weight:normal;
+}
+.searchForm legend {
+	color:#34578F;
+	font-size:12px;
+	font-weight:bold;
+}
+.greenColorText {
+	color:#2e653c;
+}
+.searchForm div {
+	margin-bottom:10px;
+}
+.darkBlueColorText {
+	color:#34578F;
+	font-size:12px;
+}
+.blueTextColor{color:#518ef2;}	
+.contactFormBg div {
+margin: 0 0 8px 0;
+}
+
+.margin bottom {
+	margin-bottom: 4px;	
+}
+.makeErrorText
+{
+    font-size: 12px;
+    font-family: arial;
+    background: #fdd5ce;
+    padding: 10px;
+    border: 1px solid #d8000c;
+    color: #db001a;
+}
+.makeSuccessText
+{
+	font-size: 12px;
+    font-family: arial;
+    background: #F9FAD6;
+    padding: 10px;
+    border: 1px solid #d8000c;
+    color: #d86d0d;
+}
+.alert-info {
+background-color: #d9edf7;
+border-color: #bce8f1;
+color: #3a87ad;
+padding: 15px;
+margin-bottom: 20px;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+
+.view-all{float: right; margin-right: 25px;color:red;}
+.mandatory-filed {
+	float:left;
+	margin:0 0 0 10px;
+	color:#FF0000!important;
+	line-height:25px;
+}
+.requriment {
+	color:#ff0000;
+}
+
+fieldset.property_owner {
+  padding: 10px;
+  margin-top: 15px;
+  }
+.property_owner label {
+  text-align:right;
+  }
+legend {
+  padding: 2px 5px;
+  border:1px solid green;
+  text-align:left;
+  }
+.property_details label {
+  text-align:right;
+  }
+fieldset.property_details {
+  padding: 10px;
+  margin-top: 15px;
+  }
+
+.property_tbl{background:none;border:none;}
+.property_details_inner{padding:0px;}
+.property_details_inner label{font-size:12px;}
+.property_details_inner table td.label{font-size:12px;}
+.input_radio_main input.input_radio{}
+.property_name_tbl td.label{width:110px;}
+.property_details_inner td.center{  color: #777777;font-weight: bold;text-align: center;}
+.property_owner_tbl td.label{font-size: 12px;padding: 5px 0;}
