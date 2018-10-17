@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Grampanchayat Rethare Haranaksh</title>
+<meta http-equiv="X-Frame-Options" content="deny">
+
+<link href="css/maan-style.css" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript"  src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+			  if (self === top) {
+			    $("body").css("style","display:block");
+			  } else {
+			    top.location = self.location;
+			  }
+});
+</script>
+</head>
+<body>
+		
+<!------Starts Header------>
+
+<div id="header" >
+<div class="logo"/><a href="index"><img src="images/gram_maan.png"></a></div>
+ 	
+</div>
+<div class="clear"></div>
+<!------End Header------>
+
+<!---------------------------Menu strat----------------->
+
+<div class="menu">
+<ul id="nav">
+
+<li ><a href="index" title="Home" class="homeIcon">Home</a></li>
+<li ><a href="about" title="About"> About</a></li>
+<li ><a href="panchayat" title="Panchayat">Panchayat </a></li>
+<li class='active'><a href="achievements" title="Achievements">Achievements</a></li>
+<li ><a href="developments_schemes" title="Development Schemes"> Development Schemes</a></li>
+<li ><a href="gallery" title="Gallery">Gallery</a></li>
+<li ><a href="awards" title="Awards">Awards</a></li>
+<li ><a href="contact" title="Contact Us">Contact  Us</a></li>
+</ul>
+
+</div>
+<div class="clear"></div>
+
+<!---------------------------Menu End----------------------->		<div id="wrapper">   <!------Starts wrapper------>
+
+<div class="clear"></div>
+
+<!---------------------------top_main End---------------->
+
+
+<!-- <div class="main_cont">-->
+
+ <div class="main_infor_about">
+ <div class="header_img"><img src="maan_images/header_img.png" /> </div>
+ 
+ <div>
+ 
+ <div class="inner_main_text left">
+ <h2>Achievements</h2>
+ <h3>Free Tree Distribution</h3> 
+ <p class="main_text">
+  Save tree, plant tree, that is main responsibility of Grampanchayat. Our future commitment is to make green garden to all Rethare Haranaksh area. We  are arranging the program regularly & distributing fruit trees & other trees as much as we can</p>
+  
+
+ <h3>Lek Vachva Abhiyan</h3>
+ <p class="main_text">This scheme has been started by Grampanchayat Rethare Haranaksh. The main purpose is to bring up the girl child's number in the village as well as understand the importance of women in a society. Under this scheme, the Grampanchayat is giving infant girl's mother Rs. 10000/- as a giftat her birth. Simultaneously, we also have conducted many programs to create awareness about Lek Vachava Abhiyan.</p>
+ 
+<h3>Water Conservation</h3>
+<p class="main_text">Rethare Haranaksh Grampanchayat has developed 30 Vanrai Bandhara, 5 Vanrai Bandhara developed by NAREGA & GP Fund, due to this underground water level increased.</p>
+
+
+<h3>Balkrishna Kopara</h3>
+<p class="main_text">Grampanchayat Rethare Haranaksh & Anganwadi has made a new concept that "Balkrishna Kopara". In this program we decorate any corner of Anganwadi. We put jars on the table with full of nutrition food. We are very conscious that all children need to eat healthy food daily & stay healthy. Our Anganwadi teacher & their assistants make a healthy & tasty food that children love to eat.</p>
+
+
+<h3>Agricultural Activities</h3>
+<p class="main_text">In our Rethare Haranaksh Village every farmer has been doing guaranteed and fixed farming under guidance of Abinav Farmer Club (AFC). There are around 27 polyhouses. With these types of polyhouses every farmer is earning 1000 Rs/day. So this is an ideal model from AFC to all Rethare Haranaksh villagers.</p>
+
+ 
+<h3>Self Help Group Activities (Bachat Gat activities)</h3>
+<p class="main_text">There are 45 SHG's which has been doing very active work. They do grading, packaging of farmers produce from field and directly home service is also done by these SHG's. These types of deliveries are facilitated all across Sangli city. From this SHG's every women is now getting a job.</p>
+
+<h3>Organic Vegetables (Sendriya Bhajipala)</h3>
+<p class="main_text">In this, our first vision is not to use chemical fertilizers. In our village about 50% of farmers have taken to growing organic vegetables. We have been able to provide fertilizer free agriculture produce to the city and the village. This is great advantage to all people who want to eat healthy.</p>
+
+<h3>Packaging Systems</h3>
+<p class="main_text">Grading, packaging, branding gives benefits to agriculture produce by increasing its cost up to 20% and it also gives employment to SHGs women.</p>
+
+<h3>Marketing</h3>
+<p class="main_text">There is a cooling van which gives delivery to all societies so our AFC can provide directly to consumers. In our Rethare Haranaksh village around 75% farmers collect their agriculture produce in our packing house. Then all this produce is delivered to big hotels and Malls as per their demands. So our farmer have been getting 20-30% more price than market price.</p>
+
+<h3>Drip Irrigation</h3>
+<p class="main_text">In our Rethare Haranaksh village 75% farmers land has been drip irrigated so this is helping to organic farming in minimum amount of water. Obviously it is beneficial and profitable.</p>
+
+</div>
+
+<!----------------------------------------main_text End-------------------------------------------->
+
+<!----------------------------------------img_Start-------------------------------------------->
+   <div class="img_tab head_bg right">
+<div class="head_bg"> <h3>Enjoy the unique aspects <br />
+                        of Rethare Haranaksh in images!</h3></div>
+
+ <div class="img pad" style="padding:5px;">
+    <a href="gallery"><img style="border:2px solid #d86d0d; margin:3px 4px 3px 4px;" src="maan_images/img01.jpeg" alt="img01"> </a>
+    <a href="gallery"><img style="border:2px solid #d86d0d; margin:3px 4px 3px 4px;"src="maan_images/img02.jpeg" alt="img02"></a>
+    <a href="gallery"><img style="border:2px solid #d86d0d; margin:3px 4px 3px 4px;"src="maan_images/img03.jpeg" alt="img03"></a>
+    <a href="gallery"><img style="border:2px solid #d86d0d; margin:3px 4px 3px 4px;"src="maan_images/img04.jpeg" alt="img04"></a>
+ </div>
+ </div>
+</div>
+<!----------------------------------------img_End-------------------------------------------->
+
+
+
+
+
+
+
+ </div>
+ 
+<div class="clear"></div>
+
+</div>
+
+</div> <!------End wrapper------>
+		<div id="footer">
+<div id="wrapper">
+    <div class="footer-left">Copyrights Grampanchayat Rethare Haranaksh<br/> 
+  </div>
+
+        <div class="footer-right right" style="margin:0">
+            <a href="index">HOME</a>
+            <a href="about">ABOUT</a>
+            <a href="panchayat">PANCHAYAT</a>
+            <a href="achievements">ACHIEVEMENTS</a>
+            <a href="developments_schemes">DEVELOPMENT SCHEMES</a>
+            <a href="gallery">GALLERY</a>
+            <a href="awards">AWARDS</a>
+            <a href="payment">TAX PAYMENT</a>
+			<a href="contact">CONTACT US </a>
+			<a href="terms-and-conditions">TERMS AND CONDITIONS </a>
+			<a href="privacy-policy">PRIVACY POLICY</a>
+			<a href="refund-policy">REFUND POLICY </a>
+       </div>
+</div>
+</div>
+                 
+
+                 
+</body>
+</html>

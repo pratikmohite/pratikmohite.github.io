@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Grampanchayat Rethare Haranaksh</title>
+<meta http-equiv="X-Frame-Options" content="deny">
+
+<link href="css/maan-style.css" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript"  src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+			  if (self === top) {
+			    $("body").css("style","display:block");
+			  } else {
+			    top.location = self.location;
+			  }
+});
+</script>
+</head>
+<body>
+		
+<!------Starts Header------>
+
+<div id="header" >
+<div class="logo"/><a href="index"><img src="images/gram_maan.png"></a></div>
+ 	
+</div>
+<div class="clear"></div>
+<!------End Header------>
+
+<!---------------------------Menu strat----------------->
+
+<div class="menu">
+<ul id="nav">
+
+<li ><a href="index" title="Home" class="homeIcon">Home</a></li>
+<li ><a href="about" title="About"> About</a></li>
+<li ><a href="panchayat" title="Panchayat">Panchayat </a></li>
+<li ><a href="achievements" title="Achievements">Achievements</a></li>
+<li class='active'><a href="developments_schemes" title="Development Schemes"> Development Schemes</a></li>
+<li ><a href="gallery" title="Gallery">Gallery</a></li>
+<li ><a href="awards" title="Awards">Awards</a></li>
+<li ><a href="contact" title="Contact Us">Contact  Us</a></li>
+</ul>
+
+</div>
+<div class="clear"></div>
+
+<!---------------------------Menu End----------------------->		<div id="wrapper">   <!------Starts wrapper------>
+ <div class="main_infor_about">
+ <div class="header_img"><img src="maan_images/header_img.png" /> </div>
+ 
+ <div>
+ 
+ <div class="inner_main_text left">
+ <h2>Development Schemes</h2>
+ 
+ <h3>Family Planning Operation</h3> 
+ <p class="main_text">With the help of primary Health Center, Grampanchyat has declared that the mother who has only 2 girls and family planning operation has done will be given attractive gifts to promote family planning.</p>
+  
+
+ 
+ <h3>One Window System</h3>
+ <p class="main_text">One window system is new concept in which we give all document and certificates from one place. So people can easily get their   requirement without any confusion. In that all work are doing online basis..</p>
+ 
+
+<h3>Duel Pump</h3>
+<p class="main_text">We have installed duel pump system. If there is no electricity, there is a provision to make these pumps operate by hands</p>
+
+
+
+<h3>Model School</h3>
+<p class="main_text">Model School is the project which has been donated by Infosys Office staff by way of taking contribution from their monthly payment. We and Infosys staff wish together that, this model school will be no 1 model school in India. After completion of this project we are going to make E-learning system high technology.</p>
+
+
+<h3>Polyhouse</h3>
+<p class="main_text">Now around 35% of farmers in Rethare Haranaksh village have polyhouses on their farm. Their size varies from 1000 sq.m onwards. They have HI-Tech polyhouse farming and are earning like class one officers, without selling their land.</p>
+
+ 
+<h3>World Level IT Park in Rethare Haranaksh Village Tal- Walva, Dist –Sangli</h3>
+<p class="main_text">High Tech Water Supply Scheme As Rajiv Gandhi Onfotech Park is expanding day by day, and so is our population, our water supply work has also increased. To work in less time we are using new technology that uses mobile messaging to switch the motor on & off. So our work has been made easier than before</p>
+
+
+
+</div>
+
+<!----------------------------------------main_text End-------------------------------------------->
+
+<!----------------------------------------img_Start-------------------------------------------->
+  <div class="img_tab head_bg right">
+<div class="head_bg"> <h3>Enjoy the unique aspects <br />
+                        of Rethare Haranaksh in images!</h3></div>
+
+ <div class="img pad" style="padding:5px;">
+    <a href="gallery"><img style="border:2px solid #d86d0d; margin:3px 4px 3px 4px;" src="maan_images/img01.jpeg" alt="img01"> </a>
+    <a href="gallery"><img style="border:2px solid #d86d0d; margin:3px 4px 3px 4px;"src="maan_images/img02.jpeg" alt="img02"></a>
+    <a href="gallery"><img style="border:2px solid #d86d0d; margin:3px 4px 3px 4px;"src="maan_images/img03.jpeg" alt="img03"></a>
+    <a href="gallery"><img style="border:2px solid #d86d0d; margin:3px 4px 3px 4px;"src="maan_images/img04.jpeg" alt="img04"></a>
+ </div>
+ </div>
+</div>
+<!----------------------------------------img_End-------------------------------------------->
+
+</div>
+<div class="clear"></div>
+</div>
+</div> <!------End wrapper------>
+		<div id="footer">
+<div id="wrapper">
+    <div class="footer-left">Copyrights Grampanchayat Rethare Haranaksh<br/> 
+  </div>
+
+        <div class="footer-right right" style="margin:0">
+            <a href="index">HOME</a>
+            <a href="about">ABOUT</a>
+            <a href="panchayat">PANCHAYAT</a>
+            <a href="achievements">ACHIEVEMENTS</a>
+            <a href="developments_schemes">DEVELOPMENT SCHEMES</a>
+            <a href="gallery">GALLERY</a>
+            <a href="awards">AWARDS</a>
+            <a href="payment">TAX PAYMENT</a>
+			<a href="contact">CONTACT US </a>
+			<a href="terms-and-conditions">TERMS AND CONDITIONS </a>
+			<a href="privacy-policy">PRIVACY POLICY</a>
+			<a href="refund-policy">REFUND POLICY </a>
+       </div>
+</div>
+</div>
+                 
+
+                 
+</body>
+</html>

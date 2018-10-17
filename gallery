@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Grampanchayat Rethare Haranaksh</title>
+<meta http-equiv="X-Frame-Options" content="deny">
+
+<link href="css/maan-style.css" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript"  src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+			  if (self === top) {
+			    $("body").css("style","display:block");
+			  } else {
+			    top.location = self.location;
+			  }
+});
+</script>
+</head>
+<body>
+		
+<!------Starts Header------>
+
+<div id="header" >
+<div class="logo"/><a href="index"><img src="images/gram_maan.png"></a></div>
+ 	
+</div>
+<div class="clear"></div>
+<!------End Header------>
+
+<!---------------------------Menu strat----------------->
+
+<div class="menu">
+<ul id="nav">
+
+<li ><a href="index" title="Home" class="homeIcon">Home</a></li>
+<li ><a href="about" title="About"> About</a></li>
+<li ><a href="panchayat" title="Panchayat">Panchayat </a></li>
+<li ><a href="achievements" title="Achievements">Achievements</a></li>
+<li ><a href="developments_schemes" title="Development Schemes"> Development Schemes</a></li>
+<li class='active'><a href="gallery" title="Gallery">Gallery</a></li>
+<li ><a href="awards" title="Awards">Awards</a></li>
+<li ><a href="contact" title="Contact Us">Contact  Us</a></li>
+</ul>
+
+</div>
+<div class="clear"></div>
+
+<!---------------------------Menu End----------------------->		<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+<div id="wrapper">
+  <div class="clear"></div>
+  <!---------------------------top_main End---------------->
+  <!-- <div class="main_cont">-->
+  <div class="main_infor_about_maan gallery-page">
+    <div class="header_img"><img src="maan_images/header_img.png" /> </div>
+    
+      <div class="margin-20">
+        <h2>Gallery</h2>
+    
+        <div class="gallerycontainer"> 
+		<a class="thumbnail left" href="maan_images/gallery/large/large_01.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/small_01.jpg" width="150px" height="100px" /></a> 
+		<a class="thumbnail" href="maan_images/gallery/large/large_02.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/small_02.jpg" width="150px" height="100px" /></a> 
+		<a class="thumbnail" href="maan_images/gallery/large/large_03.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/small_03.jpg" width="150px" height="100px" /></a> 
+		<a class="thumbnail" href="maan_images/gallery/large/large_22.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/small_22.jpg" width="150px" height="100px" /></a>
+        <a class="thumbnail" href="maan_images/gallery/large/large_05.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/small_05.jpg" width="150px" height="100px" /></a> 
+		<a class="thumbnail" href="maan_images/gallery/large/large_06.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/small_06.jpg" width="150px" height="100px" /></a> 
+		<a class="thumbnail left"  href="maan_images/gallery/large/large_07.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/small_07.jpg" width="150px" height="100px" /></a> 
+		<a class="thumbnail" href="maan_images/gallery/large/large_08.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/small_08.jpg" width="150px" height="100px" /></a>
+		<a class="thumbnail" href="maan_images/gallery/large/large_09.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/small_09.jpg" width="150px" height="100px" /></a>
+		<a class="thumbnail" href="maan_images/gallery/large/large_10.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/small_10.jpg" width="150px" height="100px" /></a>
+		<a class= "thumbnail left" href="maan_images/gallery/large/large_21.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/small_21.jpg" width="150px" height="100px" /></a> 
+        <a class= "thumbnail " href="maan_images/gallery/large/large_11.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/small_11.jpg" width="150px" height="100px" /></a> 
+        <a class="thumbnail" href="maan_images/gallery/large/socia_img3.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/socia_img2.jpg" width="150px" height="100px" /></a>
+        <a class="thumbnail" href="maan_images/gallery/large/socia_img1.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/social_img1.jpg" width="150px" height="100px" /></a>  
+        
+		<a class="thumbnail" href="maan_images/gallery/large/large_12.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/small_12.jpg" width="150px" height="100px" /></a> 
+		<a class="thumbnail left" href="maan_images/gallery/large/large_13.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/small_13.jpg" width="150px" height="100px" /></a>
+		<a class= "thumbnail" href="maan_images/gallery/large/large_14.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/small_14.jpg" width="150px" height="100px" /></a>
+		<a class="thumbnail" href="maan_images/gallery/large/large_15.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/small_15.jpg" width="150px" height="100px" /></a>
+		<a class="thumbnail" href="maan_images/gallery/large/large_16.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/small_16.jpg" width="150px" height="100px" /></a> 
+		<a class="thumbnail" href="maan_images/gallery/large/large_17.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/small_17.jpg" width="150px" height="100px" /></a> 
+		<a class="thumbnail" href="maan_images/gallery/large/large_18.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/small_18.jpg" width="150px" height="100px" /></a>
+		<a class="thumbnail left" href="maan_images/gallery/large/large_19.jpg" rel="gallerycontainer[gallery]"><img src="maan_images/gallery/thumb/small_19.jpg" width="150px" height="100px" /></a>
+		
+		<hr><br>
+		<a class="thumbnail" href="maan_images/gallery/thumb/DJI_0001.MOV" rel="gallerycontainer[gallery]"><video width="150px" height="100px" controls><source src="maan_images/gallery/thumb/DJI_0001.MOV"></video></a>  
+		<a class="thumbnail" href="maan_images/gallery/thumb/DJI_0006.MOV" rel="gallerycontainer[gallery]"><video width="150px" height="100px" controls><source src="maan_images/gallery/thumb/DJI_0006.MOV"></video></a>  
+		<a class="thumbnail" href="maan_images/gallery/thumb/DJI_0010.MOV" rel="gallerycontainer[gallery]"><video width="150px" height="100px" controls><source src="maan_images/gallery/thumb/DJI_0010.MOV"></video></a>  
+		<a class="thumbnail" href="maan_images/gallery/thumb/DJI_0011.MOV" rel="gallerycontainer[gallery]"><video width="150px" height="100px" controls><source src="maan_images/gallery/thumb/DJI_0011.MOV"></video></a>  
+		<a class="thumbnail" href="maan_images/gallery/thumb/DJI_0012.MOV" rel="gallerycontainer[gallery]"><video width="150px" height="100px" controls><source src="maan_images/gallery/thumb/DJI_0012.MOV"></video></a>  
+      </div>
+       
+</div>
+</div>
+</div>
+<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+	$("a[rel^='gallerycontainer']").prettyPhoto({theme:'light_rounded'});
+</script>
+
+
+		<div id="footer">
+<div id="wrapper">
+    <div class="footer-left">Copyrights Grampanchayat Rethare Haranaksh<br/> 
+  </div>
+
+        <div class="footer-right right" style="margin:0">
+            <a href="index">HOME</a>
+            <a href="about">ABOUT</a>
+            <a href="panchayat">PANCHAYAT</a>
+            <a href="achievements">ACHIEVEMENTS</a>
+            <a href="developments_schemes">DEVELOPMENT SCHEMES</a>
+            <a href="gallery">GALLERY</a>
+            <a href="awards">AWARDS</a>
+            <a href="payment">TAX PAYMENT</a>
+			<a href="contact">CONTACT US </a>
+			<a href="terms-and-conditions">TERMS AND CONDITIONS </a>
+			<a href="privacy-policy">PRIVACY POLICY</a>
+			<a href="refund-policy">REFUND POLICY </a>
+       </div>
+</div>
+</div>
+                 
+
+                 
+</body>
+</html>

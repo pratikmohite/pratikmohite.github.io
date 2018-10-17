@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Grampanchayat Rethare Haranaksh</title>
+<meta http-equiv="X-Frame-Options" content="deny">
+
+<link href="css/maan-style.css" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript"  src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+			  if (self === top) {
+			    $("body").css("style","display:block");
+			  } else {
+			    top.location = self.location;
+			  }
+});
+</script>
+</head>
+<body>
+		
+<!------Starts Header------>
+
+<div id="header" >
+<div class="logo"/><a href="index"><img src="images/gram_maan.png"></a></div>
+<div class="headerRightSide topspace20px"><a href="payment" title="Tax Payment">Tax Payment</a></div>	
+</div>
+<div class="clear"></div>
+<!------End Header------>
+
+<!---------------------------Menu strat----------------->
+
+<div class="menu">
+<ul id="nav">
+
+<li ><a href="index" title="Home" class="homeIcon">Home</a></li>
+<li ><a href="about" title="About"> About</a></li>
+<li ><a href="panchayat" title="Panchayat">Panchayat </a></li>
+<li ><a href="achievements" title="Achievements">Achievements</a></li>
+<li ><a href="developments_schemes" title="Development Schemes"> Development Schemes</a></li>
+<li ><a href="gallery" title="Gallery">Gallery</a></li>
+<li ><a href="awards" title="Awards">Awards</a></li>
+<li ><a href="contact" title="Contact Us">Contact  Us</a></li>
+</ul>
+
+</div>
+<div class="clear"></div>
+
+<!---------------------------Menu End----------------------->		<div id="wrapper">   <!------Starts wrapper------>
+<div class="main_cont">
+<div class="header_img"><img src="maan_images/header_img.png" /> </div>
+
+<div>
+
+<div class="inner_main_text left">
+ <h2>Terms and Conditions</h2>
+
+ <p class="main_text">By accessing, browsing and using our website or any of our applications through whatever platform (hereafter collectively referred to as the "website") and / or by completing a payment, you acknowledge and agree to have read, understood and agreed to the terms and conditions set out below (including the privacy statement). These pages, the content and infrastructure of these pages, and the online payment service provided on these pages and through the website (the "service") are owned, operated and provided by Ojaswi Tech (henceforth referred to as 'We' and 'us'), Sangli and are provided for your personal, non-commercial use only, subject to the terms and conditions set out below.</p>
+
+<p class="new_heading">1. Scope of our Service</p>
+
+<p  class="main_text">Ojaswi Tech provides an online platform through which property owners can pay their property tax to Grampanchayat Rethare Haranaksh (GM) through Axis Bank. By making a payment through www.grampanchayatmaan.org, you enter into a direct (legally binding) contractual relationship with them. 
+From the point at which you make your payment, we act solely as an intermediary between you and GM and Axis Bank, transmitting the details of your payment and sending you a confirmation email for and on behalf of GM and AXIS BANK.
+When rendering our services, the information that we disclose is based on the information that you provide us. Although we will use reasonable skill and care in performing our services we will not verify if, and cannot guarantee that, all information is accurate, complete or correct, nor can we be held responsible for any errors (including manifest and typographical errors), any interruptions (whether due to any (temporary and/or partial) breakdown, repair, upgrade or maintenance of our website or otherwise), inaccurate, misleading or untrue information.  Each customer remains responsible at all times for the accuracy, completeness and correctness of the (descriptive) information (including the amounts and information provided for taxation purposes) displayed on our website. In case of any dispute in the property tax values calculated by the website, the decision of the Grampanchayat will be final and binding to the property owner. </p>
+
+<p class="new_heading">2. Prices and Best Price Guarantee</p>
+
+<p class="main_text">Please contact GM & Axis Bank in respect to cancellation and refund. Please check the payments details, purchase information periods of payment thoroughly before making any payment. </p>
+
+<p class="new_heading">3. Credit card </p>
+
+<p class="main_text">GM and Axis Bank require credit / debit card details in order to guarantee your payment. As such, we will send your card information directly to GM & Axis Bank at which your payment is made. </p>
+
+<p class="new_heading">4. Cancellation Policy</p>
+
+<p  class="main_text">In the event of credit card fraud or unauthorised use of your credit card by third parties, most banks and credit card companies bear the risk and cover all the charges resulting from such fraud or misuse, which may sometimes be subject to a deductible. In order to indemnify you, please make sure that you report this fraud to your credit card provider (in accordance with its reporting rules and procedures)/ Please state 'credit card fraud' in the subject line of your email and provide us with evidence of the charged deductible (e.g. policy of the credit card company).</p>
+
+
+</div>
+
+
+<!--------------------------------main text end--------------------------->
+<div class="img_tab head_bg right">
+<div class="head_bg"> <h3>Enjoy the unique aspects <br />
+                        of Rethare Haranaksh in images!</h3></div>
+
+ <div class="img pad" style="padding:5px;">
+    <a href="/gallery"><img style="border:2px solid #d86d0d; margin:3px 4px 3px 4px;" src="/maan_images/img01.jpg" alt="img01"> </a>
+    <a href="/gallery"><img style="border:2px solid #d86d0d; margin:3px 4px 3px 4px;"src="/maan_images/img02.jpg" alt="img02"></a>
+    <a href="/gallery"><img style="border:2px solid #d86d0d; margin:3px 4px 3px 4px;"src="/maan_images/img03.jpg" alt="img03"></a>
+    <a href="/gallery"><img style="border:2px solid #d86d0d; margin:3px 4px 3px 4px;"src="/maan_images/img04.jpg" alt="img04"></a>
+ </div>
+ </div> 
+<div class="clear"></div>
+
+</div>
+
+</div></div> <!------End wrapper------>
+		<div id="footer">
+<div id="wrapper">
+    <div class="footer-left">Copyrights Grampanchayat Rethare Haranaksh<br/> 
+  </div>
+
+        <div class="footer-right right" style="margin:0">
+            <a href="/index">HOME</a>
+            <a href="/about_maan">ABOUT MAAN</a>
+            <a href="/panchayat">PANCHAYAT</a>
+            <a href="/achievements">ACHIEVEMENTS</a>
+            <a href="/developments_schemes">DEVELOPMENT SCHEMES</a>
+            <a href="/gallery">GALLERY</a>
+            <a href="/awards">AWARDS</a>
+            <a href="/payment">TAX PAYMENT</a>
+			<a href="/contact">CONTACT US </a>
+			<a href="/terms-and-conditions">TERMS AND CONDITIONS </a>
+			<a href="/privacy-policy">PRIVACY POLICY</a>
+			<a href="/refund-policy">REFUND POLICY </a>
+       </div>
+</div>
+</div>
+                 
+
+                 
+</body>
+</html>

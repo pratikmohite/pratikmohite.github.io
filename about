@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Grampanchayat Rethare Haranaksh</title>
+<meta http-equiv="X-Frame-Options" content="deny">
+
+<link href="css/maan-style.css" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript"  src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+			  if (self === top) {
+			    $("body").css("style","display:block");
+			  } else {
+			    top.location = self.location;
+			  }
+});
+</script>
+</head>
+<body>
+		
+<!------Starts Header------>
+
+<div id="header" >
+<div class="logo"/><a href="index"><img src="images/gram_maan.png"></a></div>
+ 	
+</div>
+<div class="clear"></div>
+<!------End Header------>
+
+<!---------------------------Menu strat----------------->
+
+<div class="menu">
+<ul id="nav">
+
+<li ><a href="index" title="Home" class="homeIcon">Home</a></li>
+<li class='active'><a href="about" title="About"> About</a></li>
+<li ><a href="panchayat" title="Panchayat">Panchayat </a></li>
+<li ><a href="achievements" title="Achievements">Achievements</a></li>
+<li ><a href="developments_schemes" title="Development Schemes"> Development Schemes</a></li>
+<li ><a href="gallery" title="Gallery">Gallery</a></li>
+<li ><a href="awards" title="Awards">Awards</a></li>
+<li ><a href="contact" title="Contact Us">Contact  Us</a></li>
+</ul>
+
+</div>
+<div class="clear"></div>
+
+<!---------------------------Menu End----------------------->		<div id="wrapper">   <!------Starts wrapper------>
+<div class="main_cont">
+<div class="header_img"><img src="maan_images/header_img.png" /> </div>
+
+<div>
+
+<div class="inner_main_text left">
+ <h2>About</h2>
+
+ <p class="main_text">Rethare Haranaksh is situated in Walva Taluka in Sangli District of Maharashtra state. It is located around 20km from Walva. 17km from Sangli city & 103 km from Mumbai main city (Capital of Maharashtra)<br/><br/>
+
+Shri Rethare Haranaksh Devi & Shri Kal Bhairavnath are the village gods of our Rethare Haranaksh village. Total area of village is 2051hector. International level Rajiv Gandhi Infotech Park is situated in the Grampanchayat area. For that total 597 hector area has given by our farmer. Due to Rajiv Gandhi Infotech Park Grampanchayat income has increased to up to Rs. 4 crore  as well as the population has also increased.<br/><br/>
+Most of  the  people  are  migrating  from Village  to  city.  But  we  want them to migrate to Rethare Haranaksh. Our efforts are to be developed  our  village  like  urban  development  in  the  state.<br/><br/>
+
+The Grampanchayat has done much progressive work worth more than Rs. 15 crore since the last three years. That includes roads, school, underground drainage, Smashan Bhumi (cremation ground), Water scheme, Grampanchayat office, water conservation, environmental work, etc. The Panchayat has also carried out many innovative programs & received awards for it. Many Mahila bachat gats are running well in Rethare Haranaksh village & they are taking benefit of Government scheme.<br/><br/>
+
+Our official records have been computerized with the help of one window system - this work is being implemented in stages. We are giving certificates & documents by one window system. Our day to day accounting is also entered using software<br/><br/>
+
+In future we will develop vegetable market, garbage / sanitation management, water conservation, commercial ropwatika (nursery), home construction for backward & housekeeping workers. In the future, 100% solar energy will used by the grampanchayat to provide solar energy to the entire village. <br/><br/>
+We are proud to have Abhinav Framers Club located in our village as it belongs to one of the top most farming group. There are 305 members in AFC. Abhinav Framers Club is a co-operative of around 6500 farmers across India. The concept of this unique Farmers Club was developed by NABARD. We started with growing of Indian vegetables, cut flowers, fruits, milk and dairy product. Today we supply exotic vegetable to Malls, cash and carry stores, five star hotels and exclusive caterers across Maharashtra. All agricultural fresh produce is brought to our main branch at Sangli where it is graded and stored at controlled atmosphere as per requirement. The shipments are handled manually. Systemic packaging ensures that the produce remains fresh and reaches its destination without any damage. We also give guidance and intensive training to farmer on various aspects like sowing, planting, water drainage, handling crop requirements and encourage them to use organic fertilizers. Abhinav Farmers Club has been played pivotal role in changing the life of many farmers who are the part of this organization.</p>
+</div>
+
+
+<!--------------------------------main text end--------------------------->
+<div class="img_tab head_bg right">
+<div class="head_bg"> <h3>Enjoy the unique aspects <br />
+                        of Rethare Haranaksh in images!</h3></div>
+
+ <div class="img pad" style="padding:5px;">
+    <a href="gallery"><img style="border:2px solid #d86d0d; margin:3px 4px 3px 4px;" src="maan_images/img01.jpeg" alt="img01"> </a>
+    <a href="gallery"><img style="border:2px solid #d86d0d; margin:3px 4px 3px 4px;"src="maan_images/img02.jpeg" alt="img02"></a>
+    <a href="gallery"><img style="border:2px solid #d86d0d; margin:3px 4px 3px 4px;"src="maan_images/img03.jpeg" alt="img03"></a>
+    <a href="gallery"><img style="border:2px solid #d86d0d; margin:3px 4px 3px 4px;"src="maan_images/img04.jpeg" alt="img04"></a>
+ </div>
+ </div> 
+<div class="clear"></div>
+
+</div>
+
+</div></div> <!------End wrapper------>
+		<div id="footer">
+<div id="wrapper">
+    <div class="footer-left">Copyrights Grampanchayat Rethare Haranaksh<br/> 
+  </div>
+
+        <div class="footer-right right" style="margin:0">
+            <a href="index">HOME</a>
+            <a href="about">ABOUT</a>
+            <a href="panchayat">PANCHAYAT</a>
+            <a href="achievements">ACHIEVEMENTS</a>
+            <a href="developments_schemes">DEVELOPMENT SCHEMES</a>
+            <a href="gallery">GALLERY</a>
+            <a href="awards">AWARDS</a>
+            <a href="payment">TAX PAYMENT</a>
+			<a href="contact">CONTACT US </a>
+			<a href="terms-and-conditions">TERMS AND CONDITIONS </a>
+			<a href="privacy-policy">PRIVACY POLICY</a>
+			<a href="refund-policy">REFUND POLICY </a>
+       </div>
+</div>
+</div>
+                 
+
+                 
+</body>
+</html>

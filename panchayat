@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Grampanchayat Rethare Haranaksh</title>
+<meta http-equiv="X-Frame-Options" content="deny">
+
+<link href="css/maan-style.css" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript"  src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+			  if (self === top) {
+			    $("body").css("style","display:block");
+			  } else {
+			    top.location = self.location;
+			  }
+});
+</script>
+</head>
+<body>
+		
+<!------Starts Header------>
+
+<div id="header" >
+<div class="logo"/><a href="index"><img src="images/gram_maan.png"></a></div>
+ 	
+</div>
+<div class="clear"></div>
+<!------End Header------>
+
+<!---------------------------Menu strat----------------->
+
+<div class="menu">
+<ul id="nav">
+
+<li ><a href="index" title="Home" class="homeIcon">Home</a></li>
+<li ><a href="about" title="About"> About</a></li>
+<li class='active'><a href="panchayat" title="Panchayat">Panchayat </a></li>
+<li ><a href="achievements" title="Achievements">Achievements</a></li>
+<li ><a href="developments_schemes" title="Development Schemes"> Development Schemes</a></li>
+<li ><a href="gallery" title="Gallery">Gallery</a></li>
+<li ><a href="awards" title="Awards">Awards</a></li>
+<li ><a href="contact" title="Contact Us">Contact  Us</a></li>
+</ul>
+
+</div>
+<div class="clear"></div>
+
+<!---------------------------Menu End----------------------->		<div id="wrapper">   <!------Starts wrapper------>
+<!---------------------------top_main End---------------->
+ <div class="main_cont">
+ <div class="header_img"><img src="maan_images/header_img.png" /></div>
+ <div>
+
+<div class="inner_main_text left">
+ <h2> Panchayat </h2>
+<!-----------------------------------------panchayt inforation------------------------------------------------>
+<div class="panchayt_info">
+
+<div class="gallerycontainer">
+
+
+
+<table width="680" height="100" border="0" cellpadding="3" cellspacing="10">
+<tr>
+<td><img src="maan_images/Panchayat_memb_gallery/1.png" width="150px" height="160px" /><br/><strong>Smita Sagar Bhosale</strong><br /> (Sarpanch)</td>
+<td><img src="maan_images/Panchayat_memb_gallery/1.png" width="150px" height="160px" /><br/><strong>Vilas Sudam Parkhi</strong><br /> (Deputy Sarpanch)</td>
+
+<td><img src="maan_images/Panchayat_memb_gallery/1.png" width="150px" height="160px" /><br/><strong>Pandurang Maruti Ozarkar</strong><br />  (Member)</td>
+<td><img src="maan_images/Panchayat_memb_gallery/1.png" width="150px" height="160px" /><br/><strong>Tanaji Baban Parkhi</strong><br />(Member)</td>
+
+</tr>
+
+<tr>
+<td><img src="maan_images/Panchayat_memb_gallery/1.png" width="150px" height="160px" /><br/><strong>Sunil Namdev Bharne</strong><br /> (Member)</td>
+<td><img src="maan_images/Panchayat_memb_gallery/1.png" width="150px" height="160px" /><br/><strong>Priti Santosh Parkhi</strong><br /> (Member)</td>
+<td><img src="maan_images/Panchayat_memb_gallery/1.png" width="150px" height="160px" /><br/><strong>Vimala Dnyanoba Parkhi</strong><br /> (Member)</td>
+<td><img src="maan_images/Panchayat_memb_gallery/1.png" width="150px" height="160px" /><br/><strong>Sapna Sachin Wadekar</strong><br /> (Member)</td>
+</tr>
+
+<tr>
+<td><img src="maan_images/Panchayat_memb_gallery/1.png" width="150px" height="160px" /><br/><strong>Sandip Dattatry Sathe</strong><br /> (Member)</td>
+<td><img src="maan_images/Panchayat_memb_gallery/1.png" width="150px" height="160px" /><br/><strong>Manisha Vasudev Bhoir</strong><br />(Member)</td>
+<td><img src="maan_images/Panchayat_memb_gallery/1.png" width="150px" height="160px" /><br/><strong>Shilpa Pandit Gavare</strong><br /> (Member)</td>
+<td><img src="maan_images/Panchayat_memb_gallery/1.png" width="150px" height="160px" /><br/><strong>Suvarna Sachin Garade</strong><br /> (Member)</td>
+</tr>
+
+<tr>
+<td><img src="maan_images/Panchayat_memb_gallery/1.png" width="150px" height="160px" /><br/><strong>Sunanda Sambhaji Bodke</strong><br /> (Member)</td>
+<td><img src="maan_images/Panchayat_memb_gallery/1.png" width="150px" height="160px" /><br/><strong>Vaishali Dattatry Bharne</strong><br />(Member) </td>
+<td><img src="maan_images/Panchayat_memb_gallery/1.png" width="150px" height="160px" /><br/><strong>Rajendra Pralhad Bhosale</strong><br />(Member)</td>
+<td><img src="maan_images/Panchayat_memb_gallery/1.png" width="150px" height="160px" /><br/><strong>Ravibhau Baliram Bodke</strong><br /> (Member)</td>
+</tr>
+
+<tr>
+<td><img src="maan_images/Panchayat_memb_gallery/1.png" width="150px" height="160px" /><br/><strong>Bajab Mahipati Shelke</strong><br /> (Member)</td>
+</tr>
+</table>
+
+
+</div>
+</div>
+
+ </div>
+ 
+ <!----------------------------------------img_Start-------------------------------------------->
+    <div class="img_tab head_bg right">
+<div class="head_bg"> <h3>Enjoy the unique aspects <br />
+                        of Rethare Haranaksh in images!</h3></div>
+
+ <div class="img pad" style="padding:5px;">
+    <a href="gallery"><img style="border:2px solid #d86d0d; margin:3px 4px 3px 4px;" src="maan_images/img01.jpeg" alt="img01"> </a>
+    <a href="gallery"><img style="border:2px solid #d86d0d; margin:3px 4px 3px 4px;"src="maan_images/img02.jpeg" alt="img02"></a>
+    <a href="gallery"><img style="border:2px solid #d86d0d; margin:3px 4px 3px 4px;"src="maan_images/img03.jpeg" alt="img03"></a>
+    <a href="gallery"><img style="border:2px solid #d86d0d; margin:3px 4px 3px 4px;"src="maan_images/img04.jpeg" alt="img04"></a>
+ </div>
+ </div>
+</div>
+<!----------------------------------------img_End-------------------------------------------->
+<div class="clear"></div>
+
+</div>
+
+</div> <!------End wrapper------>
+		<div id="footer">
+<div id="wrapper">
+    <div class="footer-left">Copyrights Grampanchayat Rethare Haranaksh<br/> 
+  </div>
+
+        <div class="footer-right right" style="margin:0">
+            <a href="index">HOME</a>
+            <a href="about">ABOUT</a>
+            <a href="panchayat">PANCHAYAT</a>
+            <a href="achievements">ACHIEVEMENTS</a>
+            <a href="developments_schemes">DEVELOPMENT SCHEMES</a>
+            <a href="gallery">GALLERY</a>
+            <a href="awards">AWARDS</a>
+            <a href="payment">TAX PAYMENT</a>
+			<a href="contact">CONTACT US </a>
+			<a href="terms-and-conditions">TERMS AND CONDITIONS </a>
+			<a href="privacy-policy">PRIVACY POLICY</a>
+			<a href="refund-policy">REFUND POLICY </a>
+       </div>
+</div>
+</div>
+                 
+
+                 
+</body>
+</html>

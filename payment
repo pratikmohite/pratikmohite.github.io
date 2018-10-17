@@ -1,0 +1,431 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Grampanchayat Rethare Haranaksh</title>
+<meta http-equiv="X-Frame-Options" content="deny">
+
+<link href="/css/maan-style.css" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript"  src="/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+			  if (self === top) {
+			    $("body").css("style","display:block");
+			  } else {
+			    top.location = self.location;
+			  }
+});
+</script>
+</head>
+<body>
+		
+<!------Starts Header------>
+
+<div id="header" >
+<div class="logo"/><a href="/index"><img src="/images/gram_maan.png"></a></div>
+<div class="headerRightSide topspace20px"><a href="/payment" title="Tax Payment">Tax Payment</a></div>	
+</div>
+<div class="clear"></div>
+<!------End Header------>
+
+<!---------------------------Menu strat----------------->
+
+<div class="menu">
+<ul id="nav">
+
+<li ><a href="/index" title="Home" class="homeIcon">Home</a></li>
+<li ><a href="/about_maan" title="About"> About</a></li>
+<li ><a href="/panchayat" title="Panchayat">Panchayat </a></li>
+<li ><a href="/achievements" title="Achievements">Achievements</a></li>
+<li ><a href="/developments_schemes" title="Development Schemes"> Development Schemes</a></li>
+<li ><a href="/gallery" title="Gallery">Gallery</a></li>
+<li ><a href="/awards" title="Awards">Awards</a></li>
+<li ><a href="/contact" title="Contact Us">Contact  Us</a></li>
+</ul>
+
+</div>
+<div class="clear"></div>
+
+<!---------------------------Menu End----------------------->		<script type="text/javascript">
+var myPopup = window.open("popupcheck.htm", "", "directories=no,height=1,width=1,menubar=no,resizable=no,scrollbars=no,status=no,titlebar=no,top=0,location=no");
+if (!myPopup)
+    alert("Please allow the browser to open a popup for this website. You can get receipt after successfull payment in popup window.");
+else
+	myPopup.close();
+</script>
+<style>
+#large {
+	display: none;
+	position: fixed;
+	background: #FFFFFF;
+	padding: 15px 15px 0;
+	z-index: 10;
+	height: 200px;
+	width: 400px;
+	color: #336699;
+	left:0;
+	right:0;
+	top:20%;
+	bottom:0;
+	margin:0 auto;
+	border-radius: 10px;
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px;
+}
+#background{
+	display: none;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #000000;
+	z-index: 1;
+}
+.dbt-table {border-collapse: collapse;} 
+#large p{margin-bottom:10px;}
+#large p span{font-size:12px;font-weight:bold;}
+.agree-lbl{float: left;margin: 10px 15px 0 0;}
+.agree-lbl label{vertical-align: top;margin: 0 0 0 5px;}
+.dbt-table td{border:1px solid #336699; padding: 5px;}
+		</style>
+<div id="wrapper">
+	<!------Starts wrapper------>
+	<div class="main_cont">
+		<div class="header_img">
+			<img src="/maan_images/header_img.png" />
+		</div>
+
+		<div>
+
+			<div class="inner_main_text left">
+				<h2>Tax Payment</h2>
+
+				<div class="pay_text">
+
+					<div>
+												
+					</div>
+					
+										<div>Grampanchayat Rethare Haranaksh allows you to pay the property tax online using any national or international credit / debit card. To initiate the process please enter your property number.   </div>
+					
+					<div class="contactFormBg topSpaceThree property_tbl">					
+						<table width="500" cellpadding="3" cellspacing="3"
+							class="property_name_tbl">
+							<tr>
+								<td class="label" style="width:135px;"><label><span class="requriment">*</span>Property Tax No. :
+								</label></td>
+								<td class="field">
+									<input type="text" value="" name="proprty_no" id="proprty_no" style="float: left;" /> 
+									<input type="button" value="Go" class="blueBtn" id="search" name="search" style="padding: 1px 5px;" /> <span style="clear: both;" class="mandatory-filed" id="proprtyErrorMsg"></span>
+								</td>
+							</tr>
+						</table>
+							<fieldset class="property_owner" style="display: none;">
+								<legend>Property Owner Details</legend>
+								<table width="500" cellpadding="3" cellspacing="0" class="property_owner_tbl">
+									<tr>
+										<td class="label"><label for="name">Name:</label></td>
+										<td class="label"><label id="pname"></label></td>
+									</tr>
+									<tr>
+										<td class="label"><label for="mail">Address:</label></td>
+										<td class="label"><label id="padd"></label></td>
+									</tr>
+									<tr>
+										<td class="label"><label for="address">Property Description:</label></td>
+										<td class="label"><label id="pdet"></label></td>
+									</tr>
+								</table>
+							</fieldset>
+						<table width="500" class="annual-retable" cellpadding="3" cellspacing="3" style="display: none;">
+							<tr>
+								<td class="label" style="padding: 10px 0px;"><label>
+									Annual Property Tax :-<span class="requriment" id="annval"></span>
+								</label></td>
+							</tr>
+						</table>
+						<div class="contactFormBg topSpaceThree property_details_inner" style="display: none;">
+								<fieldset class="property_details">
+									<legend>Property Dues Details</legend>
+										<table width="500" cellpadding="3" cellspacing="0">
+											<tr>
+												<td class="center">
+													<label>Your Payable Value. :- </label>
+													<label class="requriment" id="your-payable"></label>
+												</td>
+											</tr>
+											<tr>
+												<td class="center">
+													<label class="requriment" id="reqstatus"></label>
+												</td>
+											</tr>
+											<tr>
+												<td class="center" id="paybtn"></td>
+											</tr>
+										</table>
+						
+								</fieldset>	
+								
+								<!-- <fieldset class="property_payment" style="display:none;">
+									<legend>Card Details</legend>
+										<table width="500" cellpadding="5" cellspacing="0" style="text-align:center;">
+											<tr>
+												<td align="left" style="padding-bottom:5px; text-align: right; width:215px;" class="center">
+													<label for="ctype"><span class="requriment">*</span>Card Type : </label>
+												</td>
+												<td style="padding-bottom:5px; text-align: left;">
+													<select id="ctype">
+										                <option value="Mastercard">MasterCard</option>
+										                <option value="Visa">Visa</option>
+										                <option value="Amex">American Express</option>
+										                <option value="AmexPurchaseCard">Amex Corporate Purchase Card</option>
+										                <option value="Dinersclub">Diners Club</option>
+													</select>
+												</td>
+											</tr>
+											<tr>
+												<td align="left" style="padding-bottom:5px; text-align: right;" class="center">
+													<label for="cnum"><span class="requriment">*</span>Card Number : </label>
+												</td>
+												<td style="padding-bottom:5px; text-align: left;">
+													<input type="text" id="cnum" class="numeric cval" maxlength="16" value="">
+												</td>
+											</tr>
+											<tr>
+												<td align="left" style="padding-bottom:5px; text-align: right;" class="center">
+													<label for="cexp"><span class="requriment">*</span>Card Expiry (YYMM) : </label>
+												</td>
+												<td style="padding-bottom:5px; text-align: left;">
+													<input type="text" id="cexp" class="numeric cval"  maxlength="4" value="" style="width:50px;">
+												</td>
+											</tr>
+											<tr>
+												<td align="left" style="padding-bottom:5px; text-align: right;" class="center">
+													<label for="ccsv"><span class="requriment">*</span>Card Security Code (CVV2) : </label>
+												</td>
+												<td style="padding-bottom:5px; text-align: left;">
+													<input type="text" id="ccsv" class="cval" maxlength="4" value="" style="width:50px;">
+												</td>
+											</tr>
+											<tr>
+												<td>&nbsp;</td>
+												<td align="left" style="padding-bottom:5px; text-align: left;" class="center">
+													<input type="button" id="pay" value="Pay" class="blueBtn">&nbsp;&nbsp;
+													<input type="button" id="cancelpay" value="Cancel" class="blueBtn" onclick="javascript: location.href='/payment';"><br/>
+													<div style="margin-top: 10px;font-weight:normal;"><b>Note:</b> After clicking "Pay" you will be redirected to the Axis Bank payment gateway website.</div>
+												</td>
+											</tr>
+										</table>
+						
+								</fieldset>	 -->	
+							
+						</div>
+					<div id="last_msg_loader" style="margin-bottom:0;margin-left: 17px;color: #0241A0;font-weight: bold;"></div>			
+					<input type="hidden" name="amt" id="amt" value="" />					
+					</div>
+					
+									</div>
+				<table width="500" cellpadding="3" cellspacing="3" style="font-size: 12px;border: 1px solid #999999;">
+					<!-- <tr>
+                        <td colspan="8" align="left" valign="middle">For NEFT Transfer, our bank details are as follows:<br/>
+                            <strong>Account Name:</strong> Grampanchayat Rethare Haranaksh<br/>
+                            <strong>Account Number:</strong> 914010005891174<br/>
+                            <strong>Bank:</strong> Axis Bank Ltd<br/>
+                            <strong>Branch:</strong> Rethare , Sangli <br/>
+                            <strong>IFSC Code:</strong> UTIB0001034
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="8" align="left" valign="middle">
+                        <strong>Note:</strong> If you remit the payment by NEFT, please send the transaction record details to grampanchayat.maan@gmail.com. This will facilitate us to process your property tax payment faster. 
+                        </td>
+                    </tr> -->
+					<tr>
+						<td colspan="8" align="left" valign="middle">
+							<strong>Note:</strong> Plot / house holders are requested to make ONLY card payment till further notice. Please do NOT pay by NEFT or RTGS. 
+                        </td>
+					</tr>
+				</table>
+			</div>
+
+			<!----------------------------------------main_text End-------------------------------------------->
+
+			<!----------------------------------------img_Start-------------------------------------------->
+			
+			<div class="clear"></div>
+
+		</div>
+
+	</div>
+
+</div>
+<!------End wrapper------>
+
+<link
+	type="text/css" href="/css/jquery-ui.css"
+	rel="stylesheet" />
+<script
+	type="text/javascript"
+	src="/js/jquery-1.7.2.min.js"></script>
+<script
+	type="text/javascript"
+	src="/js/jquery-ui.min.js"></script>
+<script
+	type="text/javascript" src="/js/validate.js"></script>
+<script
+	type="text/javascript"
+	src="/js/jquery.numeric.js"></script>
+
+<script type="text/javascript">
+$(".numeric").numeric({ decimal : "." });
+
+$(document).ready(function() {
+ 	
+	$("#pname").text("");
+	$("#padd").text("");
+	$("#pdet").text("");
+	$("#annval").text("");
+	$("#your-payable").text("");
+	$("#reqstatus").text("");
+	$("#proprty_name").val("");
+	$("#amt").val("");
+	$("#paybtn").html("");
+	$(".property_owner").hide();
+	$(".annual-retable").hide();
+	$(".property_details_inner").hide();
+	$("#paytble").hide();
+	$(".property_payment").hide();
+	$(".cval").val("");
+
+	$("#search").click(function(){
+		$("#pname").text("");
+		$("#padd").text("");
+		$("#pdet").text("");
+		$("#annval").text("");
+		$("#your-payable").text("");
+		$("#reqstatus").text("");
+		$("#proprty_name").val("");
+		$("#amt").val("");
+		$("#paybtn").html("");
+		$(".property_owner").hide();
+		$(".annual-retable").hide();
+		$(".property_details_inner").hide();
+		$("#paytble").hide();
+		$(".property_payment").hide();
+		$(".cval").val("");
+		$("#popDiv").remove();
+		
+		if($("#proprty_no").val() != ""){
+			var pno = $("#proprty_no").val();
+			var total = 0;
+
+			$('div#last_msg_loader').html("<img src='/images/loader.gif' width='45' height='25'>");
+
+				$.post("/bill/propertysearch/"+$("#proprty_no").val(), function(res){
+			
+				if(res.name != ""){
+					$("#pname").text(res.name);
+					$("#padd").text(res.address);
+					$("#pdet").text(res.details);
+					$("#annval").text(" Rs. "+res.annual);
+					$("#your-payable").text(" Rs. "+res.total);
+					$("#proprty_name").val(res.name);
+					$("#amt").val(res.total);
+					$(".property_owner").show();
+					$(".annual-retable").show();
+					$(".property_details_inner").show();
+					$('div#last_msg_loader').empty();
+					$("#paybtn").show();
+					if(res.total>0){
+						$("#paybtn").html('<input type="button" id="makepay" value="Make Payment Online" class="blueBtn">');
+						$("#paytble").show();
+					}
+				}
+				else{
+					$('div#last_msg_loader').empty();
+					alert("No record available");
+				}
+			},"json");		
+		}
+		else{
+			alert("Please enter the property number");			
+		}
+	});
+
+	$("#paybtn").on("click","#makepay",function(){
+
+			$("body").append('<div id="background"></div><div id="large"><p><span>Disclaimer:-</span> The following rates will be applicable over and above '+
+					'the transaction amount billed to your card after the transaction has '+
+					'been processed on the website.</p>' +
+					'<table class="dbt-table"><tr><td rowspan="2">Debit Card (all other cards issued in india)</td><td>Less than Rs. 2000</td><td>0.75%</td></tr>'+
+					'<tr><td>Greater than or Equal to &nbsp; Rs. 2000</td><td>1%</td></tr>'+
+					'<tr><td>Credit Card (all cards)</td><td></td><td>1.5%</td></tr></table>'+
+					'<div class="agree-lbl"><input type="checkbox" id="agree" name="agree" value="1"> <label for="agree"> I Accept</label></div><div class="agree-lbl"><input type="checkbox" id="decline" name="decline" value="1"> <label for="decline"> I Decline</label></div></div>');
+
+			$("#background").css({"opacity" : "0.7"}).fadeIn();
+			$("#large").fadeIn();			
+		$("#agree").on("click", function() {
+			if($(this).is(':checked')){				
+				$("#makepay").attr('disabled',true);
+				$.post("/payment/make/"+$("#proprty_no").val()+"/initiate", function(pres){
+					if(pres.status == "OK"){
+						var form = $("<form/>", {
+				            action: "/payment/make/"+$("#proprty_no").val()+"/process",
+				            method: "POST",
+				            target: "_self"
+				        },"json");
+						form.append(pres.payfrm);
+						$("body").append(form);
+				        form.submit();
+				        form.remove();
+				       $("#makepay").val("Please wait...");
+				       $("#background").remove();
+					   $("#large").remove();
+				        return false;
+					}
+					else if(pres.status == "E1"){
+						$("#reqstatus").text("Your payable value is 0");
+					}
+					else if(pres.status == "E2"){
+						$("#reqstatus").text("Property Number not valid");
+					}		
+				},"json");
+			}
+		});	
+		$("#decline").on("click", function() {
+			if($(this).is(':checked')){
+				location.href="/index";
+			}
+		});	
+	});
+	
+});
+</script>
+		<div id="footer">
+<div id="wrapper">
+    <div class="footer-left">Copyrights Grampanchayat Rethare Haranaksh<br/> 
+  </div>
+
+        <div class="footer-right right" style="margin:0">
+            <a href="/index">HOME</a>
+            <a href="/about_maan">ABOUT</a>
+            <a href="/panchayat">PANCHAYAT</a>
+            <a href="/achievements">ACHIEVEMENTS</a>
+            <a href="/developments_schemes">DEVELOPMENT SCHEMES</a>
+            <a href="/gallery">GALLERY</a>
+            <a href="/awards">AWARDS</a>
+            <a href="/payment">TAX PAYMENT</a>
+			<a href="/contact">CONTACT US </a>
+			<a href="/terms-and-conditions">TERMS AND CONDITIONS </a>
+			<a href="/privacy-policy">PRIVACY POLICY</a>
+			<a href="/refund-policy">REFUND POLICY </a>
+       </div>
+</div>
+</div>
+                 
+
+                 
+</body>
+</html>
